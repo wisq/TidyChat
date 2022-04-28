@@ -1,10 +1,10 @@
 {
   "Author": "Nana",
-  "Name": "Tidy Chat",
+  "Name": "Tidy Chat Inverted",
   "InternalName": "TidyChat",
   "AssemblyVersion": "0.1.1.12",
   "Punchline": "Keeps your chat tidy.",
-  "Description": "In-depth filters for a less cluttered chat.",
+  "Description": "In-depth filters for a less cluttered chat.  (Inverted version that allows most system messages, by wisq.)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NadyaNayme/TidyChat",
   "Tags": [

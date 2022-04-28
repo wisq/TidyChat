@@ -247,6 +247,14 @@
             Fra = new string[] { "planche", "mirage", "projeté" },
         };
 
+        public readonly static LocalizedStrings GlamourCast = new()
+        {
+            Jpn = new string[] { "NeedsLocalization" },
+            Eng = new string[] { "you", "cast", "a", "glamour" },
+            Deu = new string[] { "NeedsLocalization" },
+            Fra = new string[] { "NeedsLocalization" },
+        };
+
         public readonly static LocalizedStrings OvermeldFailure = new()
         {
             Jpn = new string[] { "NeedsLocalization" },
