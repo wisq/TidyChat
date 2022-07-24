@@ -112,7 +112,8 @@ public static class FilterSystemMessagesInversed
                  L10N.Get(ChatRegexStrings.DiscoverAccursedHoard).IsMatch(input)) ||
                 // not optional so always run last
                 L10N.Get(ChatRegexStrings.ItemSearchCommand).IsMatch(input) ||
-                L10N.Get(ChatStrings.Playtime).All(input.Contains)
+                L10N.Get(ChatStrings.Playtime).All(input.Contains) ||
+                L10N.Get(ChatStrings.TriadMatchesAllowed).All(input.Contains)
             )
                 return true;
             // We hit the end of our whitelist -  allow the message

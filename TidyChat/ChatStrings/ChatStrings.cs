@@ -611,4 +611,12 @@ public static class ChatStrings
         Deu = new[] { "ilme", "gefangen" },
         Fra = new[] { "pêché", "de" }
     };
+ 
+    public readonly static LocalizedStrings TriadMatchesAllowed = new()
+    {
+        Jpn = new string[] { "NeedsLocalization" },
+        Eng = new string[] { "triple", "triad", "matches", "allowed", "current", "area" },
+        Deu = new string[] { "NeedsLocalization" },
+        Fra = new string[] { "NeedsLocalization" },
+    };
 }
