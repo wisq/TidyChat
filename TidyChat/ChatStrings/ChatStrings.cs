@@ -559,5 +559,12 @@
             Fra = new string[] { "pêché", "de" },
         };
 
+        public readonly static LocalizedStrings TriadMatchesAllowed = new()
+        {
+            Jpn = new string[] { "NeedsLocalization" },
+            Eng = new string[] { "triple", "triad", "matches", "allowed", "current", "area" },
+            Deu = new string[] { "NeedsLocalization" },
+            Fra = new string[] { "NeedsLocalization" },
+        };
     }
 }

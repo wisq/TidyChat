@@ -53,6 +53,7 @@ namespace TidyChat
                      !configuration.ShowDesynthesisObtains && Localization.Get(ChatRegexStrings.YouObtainSystem).IsMatch(input) ||
                      !configuration.ShowOnlineStatus && Localization.Get(ChatStrings.OnlineStatus).All(input.Contains) ||
                      !configuration.ShowAttachToMail && Localization.Get(ChatStrings.AttachToMail).All(input.Contains) ||
+                     Localization.Get(ChatStrings.TriadMatchesAllowed).All(input.Contains) ||
                      // POTD & HoH filters
                      !configuration.ShowObtainedPomander && Localization.Get(ChatRegexStrings.ObtainedPomander).IsMatch(input) ||
                      !configuration.ShowReturnedPomander && Localization.Get(ChatRegexStrings.ReturnedPomander).IsMatch(input) ||
