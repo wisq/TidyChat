@@ -39,6 +39,9 @@ public static class FilterSystemMessagesInversed
                 (configuration.BetterCommendationMessage &&
                  L10N.Get(ChatRegexStrings.BetterPlayerCommendation).IsMatch(input)) ||
                 (configuration.ShowGlamoursProjected && L10N.Get(ChatStrings.GlamoursProjected).All(input.Contains)) ||
+                (configuration.ShowGlamoursProjected && (
+                 L10N.Get(ChatStrings.GlamoursProjected).All(input.Contains) ||
+                 L10N.Get(ChatStrings.GlamourCast).All(input.Contains))) ||
                 (configuration.ShowTradeSent && L10N.Get(ChatStrings.TradeSent).All(input.Contains)) ||
                 (configuration.ShowTradeCanceled && L10N.Get(ChatStrings.TradeCanceled).All(input.Contains)) ||
                 (configuration.ShowAwaitingTradeConfirmation &&

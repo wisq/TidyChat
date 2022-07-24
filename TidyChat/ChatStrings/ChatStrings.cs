@@ -270,6 +270,14 @@ public static class ChatStrings
         Fra = new[] { "planche", "mirage", "projeté" }
     };
 
+    public readonly static LocalizedStrings GlamourCast = new()
+    {
+        Jpn = new string[] { "NeedsLocalization" },
+        Eng = new string[] { "you", "cast", "a", "glamour" },
+        Deu = new string[] { "NeedsLocalization" },
+        Fra = new string[] { "NeedsLocalization" },
+    };
+
     public static readonly LocalizedStrings OvermeldFailure = new()
     {
         Jpn = new[] { "NeedsLocalization" },
